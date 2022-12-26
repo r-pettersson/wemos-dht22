@@ -7,8 +7,7 @@
 #include "DHTesp.h"
 DHTesp dht;
 
-//#define MQTT_HOST         IPAddress(192, 168, 2, 110)
-#define MQTT_HOST         "192.168.1.87"        // Broker address
+#define MQTT_HOST         "192.168.1.80"        // Broker address
 #define MQTT_PORT         1883
 
 const char *PubTopic  = "ESP8266DHT22/Kok/Temperature";               // Topic to publish
